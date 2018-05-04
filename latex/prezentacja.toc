@@ -3,7 +3,7 @@
 \beamer@subsectionintoc {1}{1}{Wprowadzenie do problematyki projektu}{2}{0}{1}
 \beamer@sectionintoc {2}{Aplikacja}{7}{0}{2}
 \beamer@subsectionintoc {2}{1}{Przedstawienie aplikacji}{7}{0}{2}
-\beamer@sectionintoc {3}{Do\IeC {\'s}wiadczenia}{12}{0}{3}
-\beamer@subsectionintoc {3}{1}{Przeprowadzanie test\IeC {\'o}w w \IeC {\'s}rodowisku szkolnym}{12}{0}{3}
-\beamer@sectionintoc {4}{Wyniki}{14}{0}{4}
-\beamer@sectionintoc {5}{Podsumowanie}{15}{0}{5}
+\beamer@sectionintoc {3}{Doświadczenia}{12}{0}{3}
+\beamer@subsectionintoc {3}{1}{Przeprowadzenie testów w środowisku szkolnym}{12}{0}{3}
+\beamer@sectionintoc {4}{Wyniki}{16}{0}{4}
+\beamer@sectionintoc {5}{Podsumowanie}{17}{0}{5}

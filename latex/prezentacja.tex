@@ -13,6 +13,11 @@
 \setlength{\metropolis@progressinheadfoot@linewidth}{2pt}
 \makeatother
 
+\usepackage{pgfplots}
+\pgfplotsset{width=7cm,compat=1.8}
+
+\usepackage{smartdiagram}
+\usesmartdiagramlibrary{additions}
 \definecolor{fajny_szary}{HTML}{716b58}
 \definecolor{fajny_bar}{HTML}{c2b385}
 
@@ -134,51 +139,98 @@
 
 \begin{frame}
   \frametitle{Interfejs}
-  \begin{columns}
-  \begin{column}{0.4\textwidth}
-     \begin{enumerate}
-       \item Generator wzorów
-       \item Jednostki
-       \item Przelicznik wzorów
-       \item Definicja
-     \end{enumerate}
-  \end{column}
-  \begin{column}{0.6\textwidth}  %%<--- here
     \begin{figure}[p]
-      \includegraphics[width=6.5cm]{screenshot}
+      \includegraphics[width=10.5cm]{interfejs}
     \end{figure}
-  \end{column}
-  \end{columns}
 \end{frame}
 
 \begin{frame}
-  \frametitle{System nauki}
-  \small
-  \begin{table}
-    \centering
-    \begin{tabular}{ p{4cm} p{5cm} }
-      \toprule
-      Element & Rola w systemie \\
-      \midrule
-      Generator wzoru & Wzrokowe utrwalanie budowy wzoru \\
-      Przelicznik wzorów & Utrwalanie definicji poprzez weryfikowanie otrzymanego wyniku  \\
-      Definicja & Utrwalanie definicji poprzez \textit{czytanie}\\
-      \bottomrule
-    \end{tabular}
-  \end{table}
+	\tikzset{
+	every shadow/.style={
+		fill=none,
+		shadow xshift=0pt,
+		shadow yshift=0pt}
+	}
+  \smartdiagramset{
+    circular distance=36mm,
+    text width=80mm,
+    font=\small,
+    module minimum width=10mm,
+    module minimum height=10mm,
+    module shape=rectangle,
+    uniform arrow color=true,
+    arrow color=gray!50!black,
+    border color=black,
+    uniform color list=white for 6 items,
+  }
 
-  Skuteczność wzrasta wraz z częstotliwością wykorzystywania aplikacji przy robieniu zadań.
+  \frametitle{System nauki}
+  	\begin{figure}[H]
+  		\smartdiagram[flow diagram]{
+		Pierwsza styczność z nowym zagadnieniem,
+		Wykorzystywanie aplikacji przy wykonywaniu zadań,
+ 		Szybsze utrwalanie zagadnienia w praktyce,
+ 	   	Zrealizowanie materiału}
+	\end{figure}
 
 \end{frame}
 
 \section{Doświadczenia}
-\subsection{Przeprowadzanie testów w środowisku szkolnym}
+\subsection{Przeprowadzenie testów w środowisku szkolnym}
 
 \begin{frame}
-\frametitle{Cel doświadczeń}
+\frametitle{Cele doświadczeń}
 \begin{enumerate}
-  \item Potwierdzić tezę
+  \item Dowieść, że istnieją media internetowe, które wpływają korzystnie na proces przyswajania wiedzy
+  \item Dowieść, że istnieją alternatywy dla platform social-learningowych
+  \item Zaobserwować zachowania uczniów oraz ich oczekiwania wobec platform edukacyjnych
 \end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{Sposób liczenia punktów}
+\small
+W doświadczeniu brały udział grupy dwu-, trzecio-, oraz czteroosobowe, dlatego brana pod uwagę jest ilość punktów przypadająca na jednego członka grupy.
+
+$$\text{ilość punktów} = \frac{\text{długość lekcji (45min)} - \text{czas (w minutach)}}{ (\text{ilość błędów}+1) * \text{liczebność grupy}}$$
+
+W dzieleniu dodawana jest wartość $+1$, aby uniknąć dzielenia przez $0$ w przypadku bezbłędnego rozwiązania wszystkich poleceń.
+
+\textbf{Przykład:} Dwuosobowa grupa uczniów wykonała spośród czterech zadań matematycznych trzy dobrze. Niepoprawne wykonanie jednego zadania traktowane jest jako jeden błąd.
+
+$$10.38 \approx \frac{45min - 3.5min}{ (1+1) * \text{2}}$$
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Średnia arytmetyczna wszystkich kategorii}
+
+\begin{figure}[H]
+	
+\begin{tikzpicture}
+	\begin{axis}
+	[
+	xbar,
+	y axis line style = { opacity = 0 },
+	axis x line       = none,
+	tickwidth         = 0pt,
+	enlarge y limits  = 0.2,
+	enlarge x limits  = 0.02,
+	nodes near coords,
+	symbolic y coords = {Fizyka,Matematyka},
+	legend style={at={(1,-0.2)},
+	legend cell align={left},
+	anchor=south west},
+	ytick=data
+	]
+	\addplot coordinates { (21,Matematyka) (12.69,Fizyka) };
+	\addplot coordinates { (10.38,Matematyka) (15.25,Fizyka) };
+	\addplot coordinates { (4.37,Matematyka) (7.21,Fizyka) };
+	\legend{Aplikacja, Internet, Kalkulator}
+  \end{axis}
+\end{tikzpicture}
+
+\end{figure}
 \end{frame}
 
 \section{Wyniki}
