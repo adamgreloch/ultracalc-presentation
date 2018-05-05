@@ -5,8 +5,8 @@ pipelines:
     build_full:
       - step:
           script:
-            - pdflatex prezentacja.tex && bibtex prezentacja && pdflatex prezentacja.tex && pdflatex prezentacja.tex
+            - pdflatex latex/prezentacja.tex && bibtex latex/prezentacja && pdflatex latex/prezentacja.tex && pdflatex latex/prezentacja.tex
     build_fast:
       - step:
           script:
-            - pdflatex prezentacja.tex
+            - pdflatex latex/prezentacja.tex
