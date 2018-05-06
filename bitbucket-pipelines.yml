@@ -16,7 +16,7 @@ pipelines:
           caches:
             - sharelatex
           script:
-            - latex /latex/prezentacja.tex
+            - latex latex/prezentacja.tex
 
 definitions:
   caches:
