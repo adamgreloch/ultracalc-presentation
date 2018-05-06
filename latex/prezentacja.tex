@@ -176,7 +176,7 @@
 \end{frame}
 
 \section{Doświadczenia}
-\subsection{Przeprowadzenie testów w środowisku szkolnym}
+\subsection{Przeprowadzenie testów z udziałem aplikacji w środowisku szkolnym}
 
 \begin{frame}
 \frametitle{Cele doświadczeń}
@@ -209,9 +209,9 @@ $$18.45 \approx \frac{45:00 - 3:30}{ (\frac{1}{4}+1) * \text{2}}$$
       \toprule
       Kategoria & Ilość punktów & Liczebność & Czas & Wynik \\
       \midrule
-      aplikacja & 2/2 & 2 & 3:05 & 20.96 \\
       internet & 2/2 & 2 & 13:58 & 18.5 \\
       aplikacja & 2/2 & 2 & 8:31 & 18.25 \\
+      aplikacja & 2/2 & 2 & 10:08 & 17.44 \\
       aplikacja & 1/2 & 2 & 12.42 & 12.42 \\
       książka & 2/2 & 2 & 20:25 & 12.3 \\
       internet & 2/2 & 2 & 20:39 & 12.18 \\
@@ -256,7 +256,7 @@ $$18.45 \approx \frac{45:00 - 3:30}{ (\frac{1}{4}+1) * \text{2}}$$
 	axis x line       = none,
 	tickwidth         = 0pt,
 	enlarge y limits  = 0.7,
-	enlarge x limits  = 0.02,
+	enlarge x limits  = 0.2,
 	nodes near coords,
 	symbolic y coords = {Fizyka,Matematyka},
 	legend style={at={(1,0.0)},
@@ -264,10 +264,10 @@ $$18.45 \approx \frac{45:00 - 3:30}{ (\frac{1}{4}+1) * \text{2}}$$
 	anchor=south west},
 	ytick=data
 	]
-	\addplot coordinates { (21,Matematyka) (12.69,Fizyka) };
-	\addplot coordinates { (10.38,Matematyka) (15.25,Fizyka) };
-	\addplot coordinates { (4.37,Matematyka) (7.21,Fizyka) };
-	\legend{Aplikacja, Internet, Kalkulator}
+	\addplot coordinates { (20.69,Matematyka) (14.77,Fizyka) };
+	\addplot coordinates { (18.45,Matematyka) (15.34,Fizyka) };
+	\addplot coordinates { (14.01,Matematyka) (10.92,Fizyka) };
+	\legend{Aplikacja, Internet, Książka}
   \end{axis}
 \end{tikzpicture}
 
@@ -277,17 +277,21 @@ $$18.45 \approx \frac{45:00 - 3:30}{ (\frac{1}{4}+1) * \text{2}}$$
 
 \end{frame}
 
-\section{Wyniki}
+\section{Podsumowanie}
+\subsection{Końcowe wnioski oraz omówienie wyników doświadczeń}
 
 \begin{frame}
-xd
+  \frametitle{Wnioski i końcowe obserwacje}
+  \begin{enumerate}
+    \item Z zadaniami matematycznymi uczniowie klas siódmych poradzili sobie znacznie lepiej niż z zagadnieniami fizycznymi
+    \item Aplikacja uzyskała zainteresowanie zgodne z naszymi oczekiwaniami ($\sim 100$ instalacji w tym 47 aktywnych użytkowników do dnia dzisiejszego)
+    \item Uczniowie są otwarci na nowe sposoby nauczania i są chętni je testować
+  \end{enumerate}
 \end{frame}
 
-\section{Podsumowanie}
-
 \begin{frame}
-  \frametitle{Możliwe rozwiązanie problemu}
-  xd
+  \frametitle{Wpływ na social-learning}
+  Doświadczenia wykazały, że uczniowie nie są stale przywiązani do platform social-learningowych.
 \end{frame}
 
 \end{document}
