@@ -1,4 +1,4 @@
-image: fermiumlabs/latex-docker:latest
+image: sharelatex/sharelatex
 
 clone:
   lfs: true
@@ -8,16 +8,16 @@ pipelines:
     build_full:
       - step:
           caches:
-            - latex-docker
+            - sharelatex
           script:
             - pdflatex /latex/prezentacja.tex && bibtex /latex/prezentacja && pdflatex /latex/prezentacja.tex && pdflatex /latex/prezentacja.tex
     build_fast:
       - step:
           caches:
-            - latex-docker
+            - sharelatex
           script:
             - pdflatex /latex/prezentacja.tex
 
 definitions:
   caches:
-    latex-docker: fermiumlabs/latex-docker
+    sharelatex: sharelatex/sharelatex
