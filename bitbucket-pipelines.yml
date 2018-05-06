@@ -1,12 +1,15 @@
 image: fermiumlabs/latex-docker:latest
 
+clone:
+  lfs: true
+
 pipelines:
   custom: # Manually only
     build_full:
       - step:
           script:
-            - pdflatex latex/prezentacja.tex && bibtex latex/prezentacja && pdflatex latex/prezentacja.tex && pdflatex latex/prezentacja.tex
+            - pdflatex /latex/prezentacja.tex && bibtex /latex/prezentacja && pdflatex /latex/prezentacja.tex && pdflatex /latex/prezentacja.tex
     build_fast:
       - step:
           script:
-            - pdflatex latex/prezentacja.tex
+            - pdflatex /latex/prezentacja.tex
