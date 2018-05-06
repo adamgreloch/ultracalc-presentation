@@ -10,13 +10,13 @@ pipelines:
           caches:
             - sharelatex
           script:
-            - pdflatex /latex/prezentacja.tex && bibtex /latex/prezentacja && pdflatex /latex/prezentacja.tex && pdflatex /latex/prezentacja.tex
+            - pdflatex latex/prezentacja.tex && bibtex latex/prezentacja && pdflatex latex/prezentacja.tex && pdflatex latex/prezentacja.tex
     build_fast:
       - step:
           caches:
             - sharelatex
           script:
-            - pdflatex /latex/prezentacja.tex
+            - latex /latex/prezentacja.tex
 
 definitions:
   caches:
