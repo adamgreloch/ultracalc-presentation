@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1525456664 "prezentacja.xdv" "prezentacja.pdf" "prezentacja" 1525456666
-  "prezentacja.xdv" 1525456664 138912 b23f2444f8d22687d49820e6b2a0b754 "xelatex"
+["xdvipdfmx"] 1525609570 "prezentacja.xdv" "prezentacja.pdf" "prezentacja" 1525609572
+  "prezentacja.xdv" 1525609570 138952 7c2579d33a520fbe3f5edc94717beb68 "xelatex"
   (generated)
   "prezentacja.pdf"
-["xelatex"] 1525456663 "prezentacja.tex" "prezentacja.xdv" "prezentacja" 1525456666
+["xelatex"] 1525609569 "prezentacja.tex" "prezentacja.xdv" "prezentacja" 1525609572
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1480098689 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -277,15 +277,15 @@
   "/usr/local/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1517080693 3678530 d59e010203b7507de4e9d2028b1fdcb9 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
   "interfejs.png" 1525435690 366337 e413d7c059b211159fd2828e6642e6dc ""
-  "prezentacja.aux" 1525456664 6579 0a44c88a7189291c952f74fa349e1f20 ""
-  "prezentacja.nav" 1525456664 3694 230b45c1cdec7732fae2f3943e6783ef ""
-  "prezentacja.out" 1525456664 490 13b79de2ef805a461cecd04f8c8f7348 ""
-  "prezentacja.tex" 1525456663 9566 bc8e38bc4f2b60769d38dae310cd4bf7 ""
+  "prezentacja.aux" 1525609570 6579 0a44c88a7189291c952f74fa349e1f20 ""
+  "prezentacja.nav" 1525609570 3694 230b45c1cdec7732fae2f3943e6783ef ""
+  "prezentacja.out" 1525609570 490 13b79de2ef805a461cecd04f8c8f7348 ""
+  "prezentacja.tex" 1525609569 9571 d1d556ed432415bfa5f7b48cae0276c1 ""
   (generated)
-  "prezentacja.nav"
   "prezentacja.xdv"
-  "prezentacja.aux"
-  "prezentacja.log"
+  "prezentacja.nav"
   "prezentacja.toc"
-  "prezentacja.snm"
   "prezentacja.out"
+  "prezentacja.snm"
+  "prezentacja.log"
+  "prezentacja.aux"

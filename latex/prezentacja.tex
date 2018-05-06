@@ -192,13 +192,13 @@
 \small
 W doświadczeniu brały udział grupy dwu-, trzecio-, oraz czteroosobowe, dlatego brana pod uwagę jest ilość punktów przypadająca na jednego członka grupy.
 
-$$\text{ilość punktów} = \frac{\text{długość lekcji (45min)} - \text{czas (w minutach)}}{ (\text{ilość błędów}+1) * \text{liczebność grupy}}$$
+$$\text{wynik} = \frac{\text{długość lekcji (45min)} - \text{czas (w minutach)}}{ (\frac{\text{ilość błędów}}{\text{maks. ilość pkt.}}+1) * \text{liczebność grupy}}$$
 
 W dzieleniu dodawana jest wartość $+1$, aby uniknąć dzielenia przez $0$ w przypadku bezbłędnego rozwiązania wszystkich poleceń.
 
 \textbf{Przykład:} Dwuosobowa grupa uczniów wykonała spośród czterech zadań matematycznych trzy dobrze. Niepoprawne wykonanie jednego zadania traktowane jest jako jeden błąd.
 
-$$10.38 \approx \frac{45min - 3.5min}{ (1+1) * \text{2}}$$
+$$18.45 \approx \frac{45:00 - 3:30}{ (\frac{1}{4}+1) * \text{2}}$$
 \end{frame}
 
 \begin{frame}
@@ -207,18 +207,17 @@ $$10.38 \approx \frac{45min - 3.5min}{ (1+1) * \text{2}}$$
     \centering
     \begin{tabular}{@{}lllll@{}}
       \toprule
-      Kategoria & Ilość punktów & Liczebność & Czas & Indeks \\
+      Kategoria & Ilość punktów & Liczebność & Czas & Wynik \\
       \midrule
-      internet & 2/2 & 2 & 8:00 & 18.5 \\
-      aplikacja & 2/2 & 2 & 8:30 & 18.25 \\
-      aplikacja & 2/2 & 2 & 10:00 & 17.5 \\
-      książka & 2/2 & 2 & 20:30 & 12.25 \\
-      internet & 2/2 & 2 & 21:00 & 12 \\
-      aplikacja & 1/2 & 2 & 13:00 & 8 \\
-      w pamięci & 0/2 & 1 & 22:00 & 7.6 \\
-      aplikacja & 1/2 & 2 & 17:00 & 7 \\
-      książka & 0/2 & 2 & 12:40 & 5.4 \\
-      książka & 1/2 & 3 & 21:00 & 4 \\
+      aplikacja & 2/2 & 2 & 3:05 & 20.96 \\
+      internet & 2/2 & 2 & 13:58 & 18.5 \\
+      aplikacja & 2/2 & 2 & 8:31 & 18.25 \\
+      aplikacja & 1/2 & 2 & 12.42 & 12.42 \\
+      książka & 2/2 & 2 & 20:25 & 12.3 \\
+      internet & 2/2 & 2 & 20:39 & 12.18 \\
+      aplikacja & 1/2 & 2 & 17:38 & 10.95 \\
+      książka & 0/2 & 2 & 12:40 & 10.78 \\
+      książka & 1/2 & 3 & 20:50 & 9.67 \\
       \bottomrule
     \end{tabular}
   \end{table}
@@ -231,13 +230,13 @@ $$10.38 \approx \frac{45min - 3.5min}{ (1+1) * \text{2}}$$
     \centering
     \begin{tabular}{@{}lllll@{}}
       \toprule
-      Kategoria & Ilość punktów & Liczebność & Czas & Indeks \\
+      Kategoria & Ilość punktów & Liczebność & Czas & Wynik \\
       \midrule
-      aplikacja & 4/4 & 2 & 3:00 & 21 \\
-      aplikacja & 4/4 & 2 & 4:10 & 20.5 \\
-      internet & 3/4 & 2 & 3:00 & 10,38 \\
-      książka & 2/4 & 2 & 10:00 & 5.8 \\
-      książka & 2/4 & 4 & 10:00 & 2.91 \\
+      aplikacja & 4/4 & 2 & 3:05 & 20.96 \\
+      aplikacja & 4/4 & 2 & 4:10 & 20.42 \\
+      internet & 3/4 & 2 & 3:30 & 18.45\\
+      książka & 2/4 & 2 & 9:44 & 14.11 \\
+      książka & 2/4 & 4 & 10:16 & 13.9 \\
       \bottomrule
     \end{tabular}
   \end{table}
