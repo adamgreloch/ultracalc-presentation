@@ -1,4 +1,4 @@
-image: sharelatex/sharelatex
+image: blang/latex:ctanfull
 
 clone:
   lfs: true
@@ -8,16 +8,16 @@ pipelines:
     build_full:
       - step:
           caches:
-            - sharelatex
+            - latex
           script:
             - pdflatex latex/prezentacja.tex && bibtex latex/prezentacja && pdflatex latex/prezentacja.tex && pdflatex latex/prezentacja.tex
     build_fast:
       - step:
           caches:
-            - sharelatex
+            - latex
           script:
-            - latex latex/prezentacja.tex
+            - pdflatex latex/prezentacja.tex
 
 definitions:
   caches:
-    sharelatex: sharelatex/sharelatex
+    latex: blang/latex
