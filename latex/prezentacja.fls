@@ -226,8 +226,6 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/art/beamericononline.p
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/art/beamericononline.20.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemedefault.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemedefault.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamertheme-metropolis/beamerthememetropolis.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamertheme-metropolis/beamerthememetropolis.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/pgfopts/pgfopts.sty
@@ -294,6 +292,14 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/tuenc.def
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/tuenc.def
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.cfg
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/polski/polski.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/polski/polski.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel-polish/polish.ldf
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel-polish/polish.ldf
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel/xebabel.def
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex
@@ -387,14 +393,6 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hanging/hanging.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hanging/hanging.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/polski/polski.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/polski/polski.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel-polish/polish.ldf
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel-polish/polish.ldf
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel/xebabel.def
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -428,6 +426,8 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/trans
 INPUT prezentacja.nav
 INPUT prezentacja.nav
 OUTPUT prezentacja.xdv
+INPUT prezentacja.toc
+INPUT prezentacja.toc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss8.tfm

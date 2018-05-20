@@ -1,59 +1,80 @@
 \documentclass[10pt]{beamer}
-\usepackage[utf8]{inputenc}
+
 \usetheme[sectionpage=none,
-    subsectionpage=progressbar,
-    progressbar=frametitle,
-    numbering=fraction,
-    block=fill]{metropolis}
-\usepackage{xcolor}
+          subsectionpage=progressbar,
+          progressbar=frametitle,
+          numbering=fraction,
+          block=fill]{metropolis}
+
+\usepackage{polski}
+\usepackage[polish]{babel}
+
+\usepackage{pgfplots,
+            smartdiagram}
+
+\usesmartdiagramlibrary{additions}
+\pgfplotsset{width=7cm,
+            compat=1.8}
+
+
+\usepackage{lipsum,
+            hanging,
+            amsmath,
+            setspace,
+            booktabs,
+            xcolor}
+
+\renewcommand{\arraystretch}{1.2}
+\setstretch{1.1}
 
 \makeatletter
-\setlength{\metropolis@titleseparator@linewidth}{2pt}
-\setlength{\metropolis@progressonsectionpage@linewidth}{2pt}
-\setlength{\metropolis@progressinheadfoot@linewidth}{2pt}
+  \setlength{\metropolis@titleseparator@linewidth}{2pt}
+  \setlength{\metropolis@progressonsectionpage@linewidth}{2pt}
+  \setlength{\metropolis@progressinheadfoot@linewidth}{2pt}
 \makeatother
 
-\usepackage{pgfplots}
-\pgfplotsset{width=7cm,compat=1.8}
+\definecolor{gray}{HTML}{716b58}
+\definecolor{bar}{HTML}{c2b385}
 
-\usepackage{smartdiagram}
-\usesmartdiagramlibrary{additions}
-\definecolor{fajny_szary}{HTML}{716b58}
-\definecolor{fajny_bar}{HTML}{c2b385}
+\setbeamercolor{progress bar}{fg=bar}
+\setbeamercolor{frametitle}{fg=white, bg=gray}
 
-\setbeamercolor{progress bar}{fg=fajny_bar}
-\setbeamercolor{frametitle}{fg=white, bg=fajny_szary}
-
-\usepackage{lipsum}% http://ctan.org/pkg/lipsum
-\usepackage{hanging}% http://ctan.org/pkg/hanging
 \setbeamertemplate{footnote}{%
   \hangpara{2em}{1}%
   \makebox[2em][l]{\insertfootnotemark}\footnotesize\insertfootnotetext\par%
 }
 
-\usepackage{polski}
-\usepackage[polish]{babel}
-\usepackage{setspace,amsmath,booktabs}
+\title[]
+{
+  Współczesne rozwiązania technologiczne pomagają w rozwoju i edukacji
+}
 
-\title[]{Współczesne rozwiązania technologiczne pomagają w rozwoju i edukacji}
-\author[A.~Greloch \and W.~Zaremba \and M.~Zwierzyński \and J.~Lipski \and K.~Szturemski]{A.~Greloch \and W.~Zaremba \and M.~Zwierzyński \and J.~Lipski \and K.~Szturemski}
-\institute[G1PIA] % (optional)
+\author[A.~Greloch \and W.~Zaremba \and M.~Zwierzyński \and J.~Lipski \and K.~Szturemski]
+{
+  A.~Greloch \and W.~Zaremba \and M.~Zwierzyński \and J.~Lipski \and K.~Szturemski
+}
+
+\institute[G1PIA]
 {
   Klasa 3j\\
   Gimnazjum nr. 1 im. Powstańców Warszawy w Piasecznie
 }
-\date{Piaseczno, 16 maja 2018}
+
+\date
+{
+  Piaseczno, 28 maja 2018
+}
 
 \begin{document}
 
 \frame{\titlepage}
 
+\begin{frame}{Spis treści}
+\tableofcontents
+\end{frame}
+
 \section{Problem}
 \subsection{Wprowadzenie do problematyki projektu}
-\setcounter{subsection}{1}
-
-\renewcommand{\arraystretch}{1.2}
-\setstretch{1.1}
 
 \begin{frame}
   \frametitle{Problem}
@@ -292,6 +313,10 @@ $$18.45 \approx \frac{45:00 - 3:30}{ (\frac{1}{4}+1) * \text{2}}$$
 \begin{frame}
   \frametitle{Wpływ na social-learning}
   Doświadczenia wykazały, że uczniowie nie są stale przywiązani do platform social-learningowych.
+
+  Oznacza to, że jest możliwe wyparcie tego typu serwisów i przywrócenie dawnej wydajności nauczania przy użyciu alternatywnych rozwiązań.
+
+  \raggedleft Dziękujemy za uwagę.
 \end{frame}
 
 \end{document}

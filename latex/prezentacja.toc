@@ -1,9 +1,9 @@
 \select@language {polish}
-\beamer@sectionintoc {1}{Problem}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{Wprowadzenie do problematyki projektu}{2}{0}{1}
-\beamer@sectionintoc {2}{Aplikacja}{7}{0}{2}
-\beamer@subsectionintoc {2}{1}{Przedstawienie aplikacji}{7}{0}{2}
-\beamer@sectionintoc {3}{Doświadczenia}{12}{0}{3}
-\beamer@subsectionintoc {3}{1}{Przeprowadzenie testów z udziałem aplikacji w środowisku szkolnym}{12}{0}{3}
-\beamer@sectionintoc {4}{Podsumowanie}{18}{0}{4}
-\beamer@subsectionintoc {4}{1}{Końcowe wnioski oraz omówienie wyników doświadczeń}{18}{0}{4}
+\beamer@sectionintoc {1}{Problem}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Wprowadzenie do problematyki projektu}{3}{0}{1}
+\beamer@sectionintoc {2}{Aplikacja}{8}{0}{2}
+\beamer@subsectionintoc {2}{1}{Przedstawienie aplikacji}{8}{0}{2}
+\beamer@sectionintoc {3}{Doświadczenia}{13}{0}{3}
+\beamer@subsectionintoc {3}{1}{Przeprowadzenie testów z udziałem aplikacji w środowisku szkolnym}{13}{0}{3}
+\beamer@sectionintoc {4}{Podsumowanie}{19}{0}{4}
+\beamer@subsectionintoc {4}{1}{Końcowe wnioski oraz omówienie wyników doświadczeń}{19}{0}{4}
