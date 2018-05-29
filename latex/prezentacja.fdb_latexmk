@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1526813780 "prezentacja.xdv" "prezentacja.pdf" "prezentacja" 1526813782
-  "prezentacja.xdv" 1526813780 157712 acf494967342f60ac48156fae90293a3 "xelatex"
+["xdvipdfmx"] 1527627960 "prezentacja.xdv" "prezentacja.pdf" "prezentacja" 1527627961
+  "prezentacja.xdv" 1527627960 157488 e7980f99ed553763baeee2dfa6096d82 "xelatex"
   (generated)
   "prezentacja.pdf"
-["xelatex"] 1526813779 "prezentacja.tex" "prezentacja.xdv" "prezentacja" 1526813782
+["xelatex"] 1527627958 "prezentacja.tex" "prezentacja.xdv" "prezentacja" 1527627961
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1480098689 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -276,16 +276,16 @@
   "/usr/local/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1517080693 3678530 d59e010203b7507de4e9d2028b1fdcb9 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
   "interfejs.png" 1525435690 366337 e413d7c059b211159fd2828e6642e6dc ""
-  "prezentacja.aux" 1526813780 7229 30d2ac7d1bd28e779e477b77927eddf4 ""
-  "prezentacja.nav" 1526813780 4205 0b9a7c43632ce5d19f9451f1e07d4c74 ""
-  "prezentacja.out" 1526813780 576 91e652d3c990f5cd24bb8fec466b0d71 ""
-  "prezentacja.tex" 1526813779 10372 3b7a3c442ade3d411ae198a4385614ed ""
-  "prezentacja.toc" 1526813780 568 7e0acc084ddf504b98420c00a337fcab ""
+  "prezentacja.aux" 1527627960 7229 30d2ac7d1bd28e779e477b77927eddf4 ""
+  "prezentacja.nav" 1527627960 4205 0b9a7c43632ce5d19f9451f1e07d4c74 ""
+  "prezentacja.out" 1527627960 576 91e652d3c990f5cd24bb8fec466b0d71 ""
+  "prezentacja.tex" 1527627958 10441 d8ad93c72eb23ad130dc24154c1434ed ""
+  "prezentacja.toc" 1527627960 568 7e0acc084ddf504b98420c00a337fcab ""
   (generated)
-  "prezentacja.out"
   "prezentacja.toc"
-  "prezentacja.xdv"
+  "prezentacja.out"
   "prezentacja.snm"
   "prezentacja.aux"
-  "prezentacja.nav"
+  "prezentacja.xdv"
   "prezentacja.log"
+  "prezentacja.nav"
