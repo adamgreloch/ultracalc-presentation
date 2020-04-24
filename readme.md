@@ -1,5 +1,5 @@
-# ultracalc_presentation
-Główne repetytorium poświęcone końcowej prezentacji projektu ULTRACALC 2017-18 prowadzonego na terenie Piaseczna.
+# ultracalc-presentation
+Prezentacja końcowa projektu ULTRACALC 2017-18.
 
 # Użyte biblioteki i pakiety
 
